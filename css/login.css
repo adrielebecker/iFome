@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body{
-    background-color: #FCE2E2;;
+    background-color: #FCE2E2;
 }
 li{
     display: block;
@@ -38,15 +38,15 @@ li{
     text-align: right;
 }
 fieldset{
-    width: 774px;
-    height: 580px;
+    width: 730px;
+    height: 550px;
     background-color: #fff;
     border-color: #000;
     border-style: solid;
     text-align: center;
     border-style:solid;
     position: absolute;
-    margin: 15px 283px 65px 340px;
+    margin: 15px 283px 65px 370px;
 }
 #minutos{
     font-size: 50px;
@@ -74,6 +74,9 @@ fieldset{
     color: #fff;
     text-align: center;
 }
-#cadas{
-    text-align: right;
+#cadastre{
+    background-color: #fff;
+    border-color: #fff;
+    border-style: none;
+    color: #0a0a0a;
 }

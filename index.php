@@ -4,36 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/login.css">
-    <title>iFome</title>
+    <link rel="stylesheet" href="css/inicial.css">
+    <title>Tela Inicial</title>
 </head>
-<body> 
-<ul>
-    <li id="burguer"><figure><img src="img/hamburguer.png" alt="X salada"></figure></li><!--
---><li id="ifome"><figure><img src="img/iFome.png" alt="Logo iFome"></figure></li><!--
---><li id="bolo"><figure><img src="img/bolo.png" alt="Bolo de chocolate"></figure></li>
-</ul>
-<form action="" method="post">
-    <fieldset id="login">
-        <p id="minutos">Em minutos mate a sua fome!</p>
-        <p class="fonte">Faça o seu login:</p>
-        <label for="nome" class="pEscrita">Nome:</label><br>
-        <input type="text" name="nome" id="nome" class="pInput"><br>
-        <label for="email" class="pEscrita">E-mail:</label><br>
-        <input type="email" name="nome" id="nome" class="pInput"><br>
-        <label for="senha" class="pEscrita">Senha:</label><br>
-        <input type="password" name="nome" id="nome" class="pInput"><br><br>
-        <input type="submit" id="entrar" value="Entrar">
-        <p id="cadas">Cadastre-se</p>
-
-
-    </fieldset>
-</form>
-<ul>
-    <li id="pizza"><figure><img src="img/pizza.png" alt="Pizza de calabresa"></figure></li><!--
---><li id="sorvete"><figure><img src="img/sorvete.png" alt="Sorvete de Baunilha"></figure></li><br>
-    <li id="dog"><figure><img src="img/cachorro.png" alt="Cachorro Quente"></figure></li><!--
---><li id="cupcake"><figure><img src="img/cupcake.png" alt="Cupcake de chocolate"></figure></li>
-</ul>
+<body>
+    <form action="" method="post">
+            <ul>
+                <figure id=logo><img src="img/logo.png" alt="Logo do iFome"></figure>
+                <button id="surpre">Surpreenda-me</button>
+                <input type="text" name="procurar" id="procurar" placeholder="Pesquisar por um item">
+            </ul>
+            <ul>
+            <figure>
+            <li class="options"><img src="img/salgadosHome.png" alt="Imagem de uma coxinha">
+                <figcaption>Salgados</figcaption></li>
+            <li class="options"><img src="img/docesHome.png" alt="Imagem de um bolo">
+                <figcaption>Doces && Bolos</figcaption></li>
+            <li class="options"><img src="img/lanchesHome.png" alt="Imagem de um x salada">
+                <figcaption>Lanches</figcaption></li>
+            <li class="options"><img src="img/bebidasHome.png" alt="Imagem de várias latas de refrigerante">
+                <figcaption>Bebidas</figcaption></li>
+            <li class="options"><img src="img/pizzaHome.png" alt="Imagem de uma pizza">
+                <figcaption>Pizza</figcaption></li>
+            </figure>
+            </ul>
+            <!--colocar a div sugest dentro da msm tabela-->
+            <div id="suges">
+                <ul>
+                    <figure>
+                        <figcaption>Sugestões de porções</figcaption>
+                        <div id="primeira"><li class="sugest"><img src="img/fritasSugest.png" alt="Porção de batatas fritas">
+                            <figcaption>Porção de fritas com filé</figcaption></li></div>
+                        <div id="meio"><li class="sugest"><img src="img/frangoSugest.png" alt="Porção de frango grelhado">
+                            <figcaption>Porção de frango grelhado</figcaption></li></div>
+                        <div id="ultima"><li class="sugest"><img src="img/sushiSugest.png" alt="Porção de sushi">
+                            <figcaption>Porção de sushi</figcaption></li></div>
+                    </figure>
+                </ul>
+            </div>
+            <table>
+                <tr>
+                    <td class="celula">
+                        <figure>
+                            <figcaption class="titulo">Bolo</figcaption>
+                            <img src="img/boloHome.png" alt="Bolo de leite ninho com nutella" class="imagem">
+                            <div class="preco">R$19,90</div>
+                            <figcaption class="legenda">Leite ninho com nutella</figcaption>
+                        </figure>
+                    </td>
+                    <td class="celula">
+                        2
+                    </td>
+                    <td class="celula">
+                        3
+                    </td>
+                </tr>
+            </table>
+    </form>
 </body>
 </html>
