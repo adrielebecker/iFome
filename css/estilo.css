@@ -1,0 +1,389 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@font-face {
+    font-family: gorditas;
+    src: url("../fonts/gorditas/Gorditas-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: girassol;
+    src: url("../fonts/girassol/Girassol-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: notoSerif;
+    src: url("../fonts/noto-serif/NotoSerif-Regular.ttf") format("truetype");
+}
+body{
+    background-color: #FCE2E2;
+}
+.banner{
+    width: 100%;
+}
+.text-nav{
+    font-family: gorditas, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #000;
+}
+.sugest{
+    background-color: #9C050B;
+    width: 100%;
+    height: 310px;
+    border-radius: 52px;
+    text-align: center;
+}
+.img-sugest{
+    width: 70%;
+    margin-top: -30px;
+}
+.text-sugest{
+    font-family: 'georgia light';
+    font-size: 20px;
+    text-align: center;
+    margin-top: -50px;
+    color: #FFF;
+}
+.titulo-sugest{
+    color:#fff;
+    font-size: 35px;
+    font-family: girassol, 'Times New Roman', Times, serif;
+}
+.titulo-sugest > b{
+    color:#fff;
+    font-size: 40px;
+    font-family: gorditas, 'Times New Roman', Times, serif;
+}
+#procurar{
+    width: 290px;
+    height: 40px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    border-color: #5E5555;
+    background-image: url(../img/pesquisa.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'georgia light';
+}
+.img-opcoes{
+    width: 80%;
+    margin-left: 10%;
+}
+.legend{
+    font-family: gorditas, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+}
+.link{
+    text-decoration: none;
+}
+.opcoes{
+    background-color: #F7ACB7;
+    border-radius: 30px;
+    width: 100%;
+    height: 300px; 
+}
+.img{
+    margin-top: -20px;
+    margin-left: 20px;
+}
+.titulo-card{
+    font-family: notoSerif;
+    font-size: 32px;
+    color: #000;
+    text-align: center;
+}
+.descricao-card{
+    font-family: notoSerif;
+    font-size: 22px;
+    margin-top: -70px;
+    text-align: center;
+    color: #000;
+}
+.preco{
+    background-color: #FF0000;
+    width: 100px;
+    height: 50px;
+    border-radius: 100px;
+    font-family: notoSerif;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 240px;
+    margin-top: -200px;
+    color: #FFF;
+}
+.add-card-img{
+    margin-top: -20%;
+    margin-left: 85%;
+}
+.avaliar{
+    font-family: notoSerif;
+    font-size: 17px;
+    color: #000;
+}
+.logo{
+    font-size: 18px;
+    font-family: gorditas;
+    color: #FF0000;
+}
+.finalizacao{
+    width: 100%;
+}
+/* login/index */
+h1{
+    padding-top: 50px;
+    font-size: 30px;
+    font-family: notoSerif;
+    color: #000;
+    text-align: center;
+}
+h2{
+    font-size: 25px;
+    font-family: notoSerif;
+    color: #000;
+    text-align: center;
+}
+h4{
+    font-size: 20px;
+    color: #000;
+    font-family: notoSerif;
+}
+.descricao-login{
+    font-size: 20px;
+    font-family: notoSerif;
+    color: #000;
+    text-align: center;
+}
+.input-login{
+    text-align: center;
+    border-color: #000;
+    width: 50%;
+    background-color: #D4D4D4;
+    border: #000 1px solid;
+    margin-left: 25%;
+}
+.login{
+    background-color: #FFF;
+    width: 55%;
+    border: #000 1px solid;
+}
+.submit-login{
+    background-color: #FF2E2E;
+    width: 200px;
+    border-radius: 100px;
+    border: #000 1px solid;
+    margin-top: 20px;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+}
+#cadastre-se{
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* cadastro */
+.cadastro{
+    font-family: notoSerif;
+}
+.cadastro-font{
+    font-family: 'Alice', serif;
+}
+.sort{
+    font-size: 50px;
+    font-family: gorditas;
+}
+.sort-text{
+    font-size: 35px;
+    font-family: gorditas;
+}
+.menino{
+    width: 50%;
+}
+.fundoSurpre{
+    width: 180%;
+}
+/* home */
+#img-bolo{
+    margin-left: 10px;
+}
+#img-coca{
+    margin-top: -6px;
+}
+#brownie{
+    margin-top: -40px;
+}
+#img-acai{
+    margin-top: -8px;
+}
+#img-crepe{
+    margin-top: -6px;
+}
+/* salgados */
+#img-crepe{
+    margin-top: 5px;
+}
+#img-travesse{
+    margin-top: -2px;
+}
+#img-croquete{
+    margin-top: -5px;
+}
+#img-croissant{
+    margin-top: -5px;
+}
+#img-paoqueijo{
+    margin-top: -25px;
+}
+#img-esfiha{
+    margin-top: 2px;
+}
+#img-risoles{
+    margin-top: 15px;
+}
+#img-bolmandi{
+    margin-top: -2px;
+}
+
+/* doces e bolos */
+#img-donuts{
+    margin-top: 10px;
+}
+#img-sonho{
+    margin-top: -40px;
+}
+#img-cupcake{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+#img-brownie{
+    margin-left: -20px;
+    margin-top: -60px;
+}
+#img-torta{
+    margin-top: 10px;
+}
+#img-bolchuva{
+    margin-left: 40px;
+    margin-top: -2px;
+}
+#img-tortinha{
+    margin-top: -4px;
+    margin-left: 30px;
+}
+#img-muffin{
+    margin-left: -30px;
+    margin-top: 2px;
+}
+
+/* lanches */
+#img-sandnatu{
+    margin-top: 10px;
+}
+#img-baguete{
+    margin-top: -2px;
+}
+#img-xcostela{
+    margin-top: -75px;
+    margin-left: -10px;
+}
+#img-xcalabresa{
+    margin-top: 10px;
+}
+#img-fritasG{
+    margin-left: -20px;
+}
+#img-xburguer{
+    margin-top: 5px;
+}
+#img-xdog{
+    margin-left: -10px;
+    margin-top: -4px;
+}
+
+/* bebidas */
+#img-pepsilata{
+    margin-top: -90px;
+    margin-left: -20px;
+}
+#img-cocalata{
+    margin-top: -2px;
+}
+#img-guaranalata{
+    margin-top: -8px;
+}
+#img-guarana1l{
+    margin-top: -4px;
+}
+#img-cha{
+    margin-top: 10px;
+}
+#img-cafe{
+    margin-top: 15px;
+    margin-left: -10px;
+}
+#img-cafe-leite{
+    margin-top: -32px;
+}
+#img-milk-choco{
+    margin-top: -50px;
+}
+#img-milk-baunilha{
+    margin-top: -40px;
+}
+
+/* pizza */
+.img-pizza{
+    margin-top: -55px;
+    margin-left: 20px;
+}
+
+.estrelas input[type=radio] {
+    display: none;
+}
+.estrelas label i.fa:before {
+    content:'\f005';
+    color: #FC0;
+}
+.estrelas input[type=radio]:checked ~ label i.fa:before {
+    color: #CCC;
+}
+.img-fundo-avaliar{
+    width: 90%;
+}
+.avaliar-fundo{
+    background-color: #b10d12;
+    padding-bottom: 14%;
+    border-radius: 5%;
+}
+.avaliar-lin{
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+table, tr, td{
+    background-color: lightpink;
+    color: #9C050B;
+    margin-top: 2%;
+    border: #000 1px solid;
+}
+#resultado{
+    text-align: center;
+}
+.img-compras{
+    margin-left: 32%;
+    margin-top: -5%;
+}
+.h1-compras{
+    margin-top: -3%;
+}
+.h3-perfil{
+    font-family: notoserif;
+    font-size: 20px;
+    color: #000;
+}
+.h4-perfil{
+    font-family: notoserif;
+    font-size: 15px;
+    color: #000;
+}
